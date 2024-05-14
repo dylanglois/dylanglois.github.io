@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8">
+        <title>Dylan Langlois</title>
+        <meta name="description" content="Portfolio de Dylan Langlois">
+        <meta name="author" content="Dylan Langlois">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="onestyle.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <style>
+            body {
+  font-family: "Karla", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 300 !important;
+  font-style: normal;
+}
+
+.display-3 {
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-weight: 400 !important;
+}
+
+header {
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('http://media.wired.com/photos/5a580eeaa33ce53aeb6714d3/master/w_2400,c_limit/FirstViralVideo-TopArt-200371117-003.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.page {
+        
+
+
+    min-height: 100vh;
+        text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+
+
+}
+
+.sandwich {
+    height: auto;
+}
+
+#page1 {
+    color:white;
+    background: linear-gradient(to right, #1e3c72, #2a5298), url('https://images.unsplash.com/photo-1497015289639-54688650d173'),linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 5%),linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 5%);
+    background-position: top;
+    
+    background-repeat: repeat-y;
+    background-blend-mode: multiply;
+}
+
+#page1 .fulltitle {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), linear-gradient(to right, rgba(30,60,114,0.5), rgba(42,82,152,0.5));
+
+}
+
+#page1 .title {
+
+    padding: 10px 15px 0px 15px;
+}
+
+#page2 {
+    text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    background-color: white;
+    color: white;
+    background: linear-gradient(to right, #fdc830, #f37335),linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 5%),linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 5%), url('https://images.unsplash.com/photo-1581547848545-a75a2634ba23');
+    background-position: top;
+
+    background-repeat: repeat-y;
+    background-blend-mode: multiply;
+}
+
+#page2 .fulltitle {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), linear-gradient(to right, rgba(253,200,48,0.7), rgba(243,115,53,0.7));
+
+    
+
+
+}
+
+
+
+.inpage {
+    border-radius: 10px;
+    padding: 5px;
+          min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+
+.front {
+  height: 100vh;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack:center;
+  -webkit-justify-content:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+
+}
+
+.front h1,.front p {
+    color: white;
+}
+.title {
+    margin-bottom: 20px;
+
+}
+
+.subtitle {
+    margin-bottom: 20px;
+
+}
+
+.subtitle h2 {
+    margin-top: 20px;
+}
+
+.section {
+
+
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+
+.content {
+    display: none;
+    margin-top:5px;
+        margin-bottom:20px;
+}
+
+.contentfull {
+    padding: 10px;
+}
+
+.contentfull iframe {
+    margin-bottom: 15px;
+}
+
+.section:hover {
+  background-color: rgba(0,0,0,.4);
+}
+
+.active:hover {
+    background-color: inherit;
+}
+
+
+
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+
+}
+.facebook-responsive iframe {
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding-right:  25px;
+
+}
+
+.collapsible2 h2 {
+    padding: 5px;
+    font-weight: 700;
+
+}
+
+.collapsible h4 {
+    font-weight: 400;
+}
+
+.highlight iframe {
+    width: 100%;
+    
+    
+}
+
+.collapsible {
+    
+}
+
+@media (min-width: 768px) {
+    .facebook-responsive {
+    overflow:hidden;
+    padding-bottom:31.5%;
+    position:relative;
+    height:0;
+    }
+    
+    .highlight {
+        display: flex !important;
+    }
+
+    .highlight iframe {
+        width: 90%;
+
+        border: 1px solid #dfdfdf;
+        border-radius: 10px;
+    }
+}
+        </style>
+    </head>
+    <body>
+    <header>
+        <div class="container front text-center">
+          <div>
+            <h1 class="display-3">Dylan Langlois</h1>
+            <p class="lead">Créateur multimédia.</p>
+            <p class="lead">
+                <a href="#" class="btn btn1 btn-lg btn-primary" id="scrollLink">Vidéos</a>
+            </p>            <p class="lead">
+                <a href="#" class="btn btn1 btn-lg btn-secondary" id="scrollLink2">Podcasts</a>
+            </p>
+          </div>
+        </div>
+    </header>
+    <div class="page" id="page1">
+        <div class="fulltitle">
+            <div class="container">
+                <div class="title">
+                <div class="row">
+                    <h1>Vidéos</h1>
+                    <p class="lead">Plus que mon activité ou ma formation, l'écriture, le tournage et le montage de vidéos, c'est ma passion. Si je la pratique en autodidacte depuis le premier jour où j'ai eu un micro et une webcam, j'ai eu l'occasion, par mes expériences, de me professionnaliser.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container inpage">
+
+            <div type="button" class="row justify-content-md-center collapsible2">
+                <div class="col">&nbsp;</div>
+                <div class="col" style="text-align: center;"><h2>Highlights</h2></div>
+                <div class="col">&nbsp;</div>
+            </div>
+            <div class="row justify-content-lg-center highlight" style="display: none;">
+                    <div class="col col-lg-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bKcQcZAxsKo?si=rW3qgJtVbsBbbQC-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col col-lg-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rKrz0Sy3O9c?si=nRaVyQF-noW-QTdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col col-lg-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U_fAgXRgkGE?si=mUv2iHyfasY5qYX1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+</div>
+            <div class="subtitle">
+                <div class="row">
+                    <h2>Projets :</h2>
+                </div>
+            </div>
+            <div class="section">
+                <div type="button" class="row collapsible"><h4>Vidéos de remontage pour ARTE</h4></div>
+                <div class="content">
+                <div class="row">
+                    <p>Lors de mon stage à <b>ARTE</b> (2018), j'ai eu l'occasion d'écrire plusieurs vidéos destinées aux réseaux sociaux. Elles visaient à <b>raconter et expliquer les contenus de la chaîne</b>, en particulier les documentaires diffusés.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md facebook-responsive">
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fartetv%2Fvideos%2F10156403206528945%2F&show_text=false&width=476&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fartetv%2Fvideos%2F308056313332261%2F&show_text=false&width=476&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fartetv%2Fvideos%2F10156448557663945%2F&show_text=false&width=476&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                </div>
+            </div>
+</div>
+            <div class="section">
+                <div type="button" class="row collapsible"><h4>Vidéos pour l'UFAL</h4></div>
+                <div class="content">
+                <div class="row">
+                    <p>Entre 2020 et 2022, à l'initiative d'une proposition de <b>l'UFAL (Union des FAmilles Laïques)</b>, j'ai eu l'occasion d'écrire, de tourner et de monter plusieurs vidéo plus pédagogiques et militantes, sur des sujets de société comme la laïcité, le premier projet de réforme des retraites Macron, la Sécurité Sociale, ou encore l'écologie.</p>
+                </div> 
+                <div class="row">
+                    <div class="col-md facebook-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DMPOPXRu_08?si=pQlNShNU1p3WUxAm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bh0TrLwuiAs?si=9DUeLTclQJ0vAUEd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/l1mTOqmvulY?si=H6yKO0STiWXYM-00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="section">
+                <div type="button" class="row collapsible"><h4>Vidéos de promotion pour RadioKawa</h4></div>
+                <div class="content">
+                <div class="row">
+                    <p>En 2018 et en 2019, j'ai eu l'occasion de réaliser trois vidéos pour présenter deux des podcasts du réseau <b>RadioKawa</b>, à travers un extrait que je m'amusais à mettre en scène de façon décalée.</p>
+                </div> 
+                <div class="row">
+                    <div class="col-md facebook-responsive">
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FStorytimeRK%2Fvideos%2F215165752400957%2F&show_text=false&width=476&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRadioKawaCom%2Fvideos%2F991122641227394%2F&show_text=false&width=476&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FRadioKawaCom%2Fvideos%2F315749358923098%2F&show_text=false&width=476&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="section">
+                <div type="button" class="row collapsible"><h4>Vidéos pour ma chaîne YouTube</h4></div>
+                <div class="content">
+                <div class="row">
+                    <p>Entre présentation d'oeuvres culturelles et vulgarisation, j'ai occasionnement fabriqué des vidéos pour mon propre compte, ce qui m'a permis de développer mes compétences en matière d'écriture et de montage au fil des années.</p>
+                </div> 
+                <div class="row">
+                    <div class="col-md facebook-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t_V3_-sfqpE?si=_-pP3y1Xw3c-eWh7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AjY6971-51w?si=tmPQEKJXsIZWvISm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md facebook-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SmofQcfL1NQ?si=cH_HNYpXLBfYs-FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
+    <div class="page" id="page2">
+        <div class="fulltitle">
+            <div class="container">
+                <div class="title">
+                    <div class="row">
+                        <h1>Podcasts</h1>
+                        <p class="lead">En parallèle de mes activités vidéo, j'aime également l'exercice du podcast. Producteur autodidacte, j'ai pu être formé par les équipes de RadioKawa, un ancien réseau de podcast associatif francophone. Elles m'ont accompagné sur deux émissions durant six ans, que ça soit sur les publications régulières ou sur l'organisation d'évènements en public.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container inpage">
+            <div class="subtitle">
+                <div class="row">
+                    <h2>Projets :</h2>
+                </div>
+            </div>
+            <div class="section">
+                <div type="button" class="row collapsible"><h3>Storytime</h3></div>
+                <div class="content">
+                <div class="row">
+            <p>De 2017 à 2019, j'ai organisé tous les mois un podcast un peu particulier. Le concept, c'était que j'invitais 3 personnes à venir raconter une histoire de leur cru sur un thème général, puis à échanger autour de tout 		ce qui avait été dit. C'était une manière pour moi de mettre en scène des rencontres et des découvertes dans un contexte urbain qui isole parfois un peu trop les gens.
+            <br>A noter que plusieurs de ces émissions ont été réalisées en direct et en public.</p>
+                </div>
+                <div class="row">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/5I0XQ0H5pstQ3Ej6TrD5vO" style="border: 0; width: 100%; height: 232px;" allowfullscreen allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+            <div class="section">
+                <div type="button" class="row collapsible"><h3>Parodian Rhapsody</h3></div>
+                <div class="content">
+                <div class="row">
+            <p>De 2013 à 2017, j'ai écrit, enregistré et monté Parodian Rhapsody, un podcast qui analysait déjà les médias, et plus particulièrement une certaine forme médiatique : la parodie. Ce podcast fut pour moi l'occasion de 		commencer à travailler ma voix ainsi que le format audio.
+            <br>Certains épisodes furent également l'opportunité pour moi de travailler mes compétences en entretien individuel.</p>
+                </div>
+                <div class="row">
+            <iframe src="https://open.spotify.com/embed-podcast/episode/3PVxclesmREACOyVNmmXKt" style="border: 0; width: 100%; height: 232px;" allowfullscreen allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+            <div class="section active">
+                <div class="contentfull">
+                    <div class="row">
+                        <h3>Autres participations</h3>
+                        <p>Au-delà de mes productions, j'ai également eu le plaisir d'intervenir par le biais de chroniques dans l'émission Conficulture sur Viv'FM (anciennement Noyon'Air) ainsi que dans le podcast Allô Centrale.</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    <script>
+    document.getElementById('scrollLink').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default anchor behavior
+
+        // Scroll smoothly to 100vh
+        window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth'
+        });
+    });
+    document.getElementById('scrollLink2').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default anchor behavior
+
+        // Scroll smoothly to 100vh
+        window.scrollTo({
+            top: 2 * window.innerHeight,
+            behavior: 'smooth'
+        });
+    });
+    </script>
+    <script>
+        // Sélectionner tous les éléments avec les classes "collapsible" et "collapsible2"
+        var coll = document.getElementsByClassName("collapsible");
+        var coll2 = document.getElementsByClassName("collapsible2");
+
+        // Sélectionner tous les éléments avec la classe "page"
+        const pageDivs = document.querySelectorAll('.page');
+
+        // Fonction pour ajouter la classe "sandwich" à toutes les divs avec la classe "page"
+        function addSandwichClass() {
+            pageDivs.forEach(function(div) {
+                div.classList.toggle("sandwich");
+            });
+        }
+
+        var i;
+        // Ajouter des écouteurs d'événement aux éléments avec la classe "collapsible"
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                addSandwichClass();
+                var section = this.parentElement;
+                section.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+        // Ajouter des écouteurs d'événement aux éléments avec la classe "collapsible2"
+        for (i = 0; i < coll2.length; i++) {
+            coll2[i].addEventListener("click", function() {
+                addSandwichClass();
+                var section2 = this.parentElement;
+                section2.classList.toggle("active");
+                var content2 = this.nextElementSibling;
+                if (content2.style.display === "flex") {
+                    content2.style.display = "none";
+                } else {
+                    content2.style.display = "flex";
+                }
+            });
+        }
+    </script>     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
